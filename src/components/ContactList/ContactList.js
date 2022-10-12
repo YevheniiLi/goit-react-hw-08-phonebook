@@ -1,4 +1,4 @@
-import { Box } from 'components/styles/Box';
+import { Box } from 'styles/Box';
 import { ContactItem, ContactText } from './ContactList.styled';
 import PropTypes from 'prop-types';
 import { useSelector } from 'react-redux';
