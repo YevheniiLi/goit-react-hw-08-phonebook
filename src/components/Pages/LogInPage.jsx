@@ -6,11 +6,6 @@ import {
   FormInput,
 } from 'components/ContactForm/ContactForm.styled';
 
-// const schema = yup.object().shape({
-//   name: yup.string().required(),
-//   phone: yup.number().required(),
-// });
-
 const initialValues = {
   email: '',
   password: '',
@@ -26,11 +21,7 @@ export const LogInPage = () => {
   };
 
   return (
-    <Formik
-      initialValues={initialValues}
-      onSubmit={formSubmit}
-      // validationSchema={schema}
-    >
+    <Formik initialValues={initialValues} onSubmit={formSubmit}>
       <Form>
         <label>
           Email

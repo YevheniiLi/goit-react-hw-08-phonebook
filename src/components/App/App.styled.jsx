@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import { NavLink } from 'react-router-dom';
 
 export const SiteNav = styled.nav`
-  width: 1200px;
+  min-width: 100%;
   margin-right: auto;
   margin-left: auto;
   display: flex;
@@ -22,7 +22,8 @@ export const SiteLink = styled(NavLink)`
   letter-spacing: 0.02em;
   text-decoration: none;
   color: ${p => p.theme.colors.black};
-
+  margin-left: 20px;
+  margin-right: 20px;
   :not(:last-child) {
     margin-right: 20px;
   }
