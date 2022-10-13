@@ -5,7 +5,7 @@ import { BrowserRouter } from "react-router-dom";
 import { Provider } from "react-redux";
 import { ThemeProvider } from 'styled-components';
 import { App } from 'components/App/App';
-import { theme } from './theme';
+import { theme } from './components/styles/theme';
 import { store } from './redux/store';
 import { persistor } from './redux/store';
 

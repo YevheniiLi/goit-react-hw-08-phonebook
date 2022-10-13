@@ -1,4 +1,4 @@
-import { GlobalStyle } from '../GlobalStyle/GlobalStyle';
+import { GlobalStyle } from '../styles/GlobalStyle';
 import { Route, Routes } from 'react-router-dom';
 import { ContactsPage } from '../Pages/ContactsPage';
 import { HomePage } from '../Pages/HomePage';

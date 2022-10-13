@@ -22,6 +22,9 @@ export const FormInput = styled(Field)`
   border-radius: 4px;
   outline: none;
   margin-right: ${p => p.theme.space[4]}px;
+  margin-left: ${p => p.theme.space[4]}px;
+  margin-bottom: ${p => p.theme.space[4]}px;
+  margin-top: ${p => p.theme.space[4]}px;
   :focus {
     border-color: ${p => p.theme.colors.primary};
   }

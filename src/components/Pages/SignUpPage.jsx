@@ -30,7 +30,7 @@ export const SignUpPage = () => {
     <Formik
       initialValues={initialValues}
       onSubmit={formSubmit}
-      // validationSchema={schema}
+    
     >
       <Form>
         <label>
