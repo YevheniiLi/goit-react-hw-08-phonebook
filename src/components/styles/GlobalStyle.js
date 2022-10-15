@@ -40,7 +40,7 @@ export const GlobalStyle = createGlobalStyle`
 
   button:hover,
   button:focus {
-  background-color: #1976d2;
+  background-color: #B0E0E6;
   color: #fff;
   }
 `;
@@ -54,11 +54,11 @@ export const NavigationLink = styled(NavLink)`
   &:hover,
   &:focus {
     color: white;
-    background-color: #1976d2;
+    background-color: #B0E0E6;
   }
   &.active {
     color: white;
-    background-color: #1976d2;
+    background-color: #00a862;
   }
 `;
 
@@ -71,6 +71,13 @@ export const Label = styled.label`
 export const Message = styled.p`
   margin-top: 16px;
   font-weight: 700;
+`;
+
+export const MessageFinder = styled.p`
+  margin-top: 16px;
+  display: flex;
+  justify-content: center;
+  font-weight: 500;
 `;
 
 export const Form = styled.form`

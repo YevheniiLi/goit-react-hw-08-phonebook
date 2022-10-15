@@ -2,6 +2,7 @@ import { Label, Form } from 'components/styles/GlobalStyle';
 import { useDispatch } from 'react-redux';
 import { setSearchValue } from 'redux/contacts/searchSlice';
 import { SearchField } from './Filter.styled';
+import { MessageFinder } from 'components/styles/GlobalStyle';
 
 export const Filter = () => {
   const dispatch = useDispatch();
@@ -11,7 +12,7 @@ export const Filter = () => {
 
   return (
     <Label>
-      Find contacts by name
+      <MessageFinder>Find contacts by name</MessageFinder>
       <Form>
         <SearchField type="text" onChange={handleSearch} />
       </Form>
